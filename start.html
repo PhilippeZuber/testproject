@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beispielseite mit W3.CSS</title>
+    <title>Schnitzeljagd</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="css/css.css">
 </head>
 <body class="w3-light-grey">
     <!-- Hauptinhalt -->
     <div class="w3-container w3-white w3-margin-top w3-padding-16 w3-card-4">
-        <h2 class="w3-center">Willkommen auf meiner Beispielseite</h2>
-        <p class="w3-center">Dies ist ein Beispieltext, der beschreibt, worum es auf dieser Seite geht.</p>
+        <h2 class="w3-center">Willkommen bei meiner Schnitzeljagd</h2>
+        <p class="w3-center">Gehe zum Getränkeautomat, der sich neben den Mikrowellen befindet.</p>
         
-        <form class="w3-container w3-margin-top">
-            <label class="w3-text-blue" for="eingabefeld">Geben Sie etwas ein:</label>
-            <input class="w3-input w3-border" type="text" id="eingabefeld" name="eingabefeld" required>
+        <form class="w3-container w3-margin-top" action="form1.html" method="get">
+            <label class="w3-text-blue" for="eingabefeld">Welche Zahl hat Coca Cola Zero</label>
+            <input class="w3-input w3-border" type="text" id="eingabefeld" name="eingabefeld" pattern="23" required>
+        <button class="w3-button w3-blue w3-margin-top" type="submit">Absenden</button>
         </form>
     </div>
 
