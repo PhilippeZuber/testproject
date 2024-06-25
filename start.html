@@ -2,14 +2,27 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>Schnitzeljagd</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beispielseite mit W3.CSS</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/css.css">
 </head>
-<body>
-    <div class="w3-card">
-        <label>First Name</label>
-        <input class="w3-input" type="text">
-    </div> 
+<body class="w3-light-grey">
+    <!-- Hauptinhalt -->
+    <div class="w3-container w3-white w3-margin-top w3-padding-16 w3-card-4">
+        <h2 class="w3-center">Willkommen auf meiner Beispielseite</h2>
+        <p class="w3-center">Dies ist ein Beispieltext, der beschreibt, worum es auf dieser Seite geht.</p>
+        
+        <form class="w3-container w3-margin-top">
+            <label class="w3-text-blue" for="eingabefeld">Geben Sie etwas ein:</label>
+            <input class="w3-input w3-border" type="text" id="eingabefeld" name="eingabefeld" required>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-blue w3-center w3-padding-16 w3-margin-top">
+        <p>Footer Inhalt hier. &copy; 2024 Beispielseite</p>
+    </footer>
+
 </body>
-</html> 
+</html>
